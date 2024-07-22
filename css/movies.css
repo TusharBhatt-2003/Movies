@@ -1,18 +1,28 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+  }
+  
+  #image-track {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  
 
-body{
-    
-    background: rgb(8, 4, 75);
-}
-
-h1 {
-   color: rgb(214, 249, 255);
-   text-align: center;
-
-}
+  
+ 
