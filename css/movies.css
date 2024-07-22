@@ -5,7 +5,11 @@ body {
     margin: 0rem;
     overflow: hidden;
   }
-  
+
+img {
+    border-radius: 5px ;
+  }
+
   #image-track {
     display: flex;
     gap: 4vmin;
